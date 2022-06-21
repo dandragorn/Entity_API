@@ -19,7 +19,7 @@ public class UpdateEntityRequestHandler : IRequestHandler<UpdateEntityRequest, U
             .Where(a => a.Id == request.Id)
             .FirstOrDefaultAsync(cancellationToken: cancellationToken);
 
-        _= entity ?? throw new NotImplementedException("Some message");
+        _= entity ?? throw new NotSupportedException("Some sort message");
 
         entity.Id = request.Id;
         entity.Title = request.Title;
