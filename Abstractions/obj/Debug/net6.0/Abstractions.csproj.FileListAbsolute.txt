@@ -1,0 +1,12 @@
+/Users/danperunov/RiderProjects/Data_API/Abstractions/bin/Debug/net6.0/Abstractions.deps.json
+/Users/danperunov/RiderProjects/Data_API/Abstractions/bin/Debug/net6.0/Abstractions.dll
+/Users/danperunov/RiderProjects/Data_API/Abstractions/bin/Debug/net6.0/Abstractions.pdb
+/Users/danperunov/RiderProjects/Data_API/Abstractions/obj/Debug/net6.0/Abstractions.csproj.AssemblyReference.cache
+/Users/danperunov/RiderProjects/Data_API/Abstractions/obj/Debug/net6.0/Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danperunov/RiderProjects/Data_API/Abstractions/obj/Debug/net6.0/Abstractions.AssemblyInfoInputs.cache
+/Users/danperunov/RiderProjects/Data_API/Abstractions/obj/Debug/net6.0/Abstractions.AssemblyInfo.cs
+/Users/danperunov/RiderProjects/Data_API/Abstractions/obj/Debug/net6.0/Abstractions.csproj.CoreCompileInputs.cache
+/Users/danperunov/RiderProjects/Data_API/Abstractions/obj/Debug/net6.0/Abstractions.dll
+/Users/danperunov/RiderProjects/Data_API/Abstractions/obj/Debug/net6.0/refint/Abstractions.dll
+/Users/danperunov/RiderProjects/Data_API/Abstractions/obj/Debug/net6.0/Abstractions.pdb
+/Users/danperunov/RiderProjects/Data_API/Abstractions/obj/Debug/net6.0/ref/Abstractions.dll
