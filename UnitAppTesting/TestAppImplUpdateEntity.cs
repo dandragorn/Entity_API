@@ -22,16 +22,15 @@ public class TestAppImplUpdateEntity: TestHost
         var mediator = ServiceProvider?.GetRequiredService<IMediator>() ??
                        throw new ArgumentNullException(nameof(ServiceProvider));
         
-        //var newEntity = new Entity(1, "Title", "Description", "Content");
         var addEntityRequest = new AddEntityRequest(1, "Title", "Description", "Content");
         
         var addResponse = await mediator.Send(addEntityRequest);
         Assert.AreEqual(1,addResponse.Id);
 
         var updateEntityRequest = new UpdateEntityRequest(1, "NewTitle", "NewDescription", "NewContent");
-        var response = mediator.Send(updateEntityRequest);
+        var response = await mediator.Send(updateEntityRequest);
         
-        Assert.AreEqual("NewTitle", response);
+        Assert.AreEqual("NewTitle", response.Title);
     }
     
 }
