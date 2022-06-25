@@ -1,11 +1,8 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Abstractions;
 using Abstractions.Requests.AddEntity;
 using Abstractions.Requests.GetEntities;
-using App;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using NUnit.Framework;
