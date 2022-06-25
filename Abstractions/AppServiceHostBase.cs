@@ -8,8 +8,7 @@ public abstract class AppServiceHostBase
 {
     private IConfiguration? _configuration;
     public IServiceProvider? ServiceProvider;
-
-
+    
     public async Task Start(IServiceCollection serviceCollection, IConfiguration configuration)
     {
         _configuration = configuration;

@@ -1,6 +1,4 @@
 using App;
-using App.Handlers;
-using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
 var appServiceHost = new AppServiceHost();
@@ -9,12 +7,8 @@ await appServiceHost.Start(builder.Services, builder.Configuration);
 
 builder.Services.AddControllers();
 
-
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-
 var app = builder.Build();
 
 

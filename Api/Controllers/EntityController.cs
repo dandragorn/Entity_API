@@ -1,9 +1,7 @@
-using Abstractions;
 using Abstractions.Requests.AddEntity;
 using Abstractions.Requests.DeleteEntity;
 using Abstractions.Requests.GetEntities;
 using Abstractions.Requests.UpdateEntity;
-using App.Handlers;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
