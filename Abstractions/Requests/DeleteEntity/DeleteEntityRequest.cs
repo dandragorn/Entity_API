@@ -6,7 +6,6 @@ public class DeleteEntityRequest : IRequest<DeleteEntityResponse>
 {
     //plan to delete some entities
     public DeleteEntityRequest(int id) => Id = id;
-
-    //adding
+    
     public int Id { get; set; }
 }
