@@ -1,9 +1,7 @@
 using System;
 using System.Threading.Tasks;
-using Abstractions;
 using Abstractions.Requests.AddEntity;
 using Abstractions.Requests.UpdateEntity;
-using App;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using NUnit.Framework;

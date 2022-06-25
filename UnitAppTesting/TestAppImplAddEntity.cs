@@ -1,8 +1,6 @@
 using System;
 using System.Threading.Tasks;
-using Abstractions;
 using Abstractions.Requests.AddEntity;
-using App;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using NUnit.Framework;

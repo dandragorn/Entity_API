@@ -1,11 +1,8 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Abstractions;
 using Abstractions.Requests.AddEntity;
 using Abstractions.Requests.GetEntities;
-using App;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using NUnit.Framework;
@@ -24,7 +21,6 @@ public class TestAppImplGetEntities: TestHost
         var mediator = ServiceProvider?.GetRequiredService<IMediator>() ??
                        throw new ArgumentNullException(nameof(ServiceProvider));
         
-        //var newEntity = new Entity(1, "Title", "Description", "Content");
         var addEntityRequest = new AddEntityRequest(1, "Title", "Description", "Content");
         var addResponse = await mediator.Send(addEntityRequest);
         Assert.AreEqual(1,addResponse.Id);
